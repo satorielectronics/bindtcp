@@ -1,4 +1,4 @@
-# bindtcp on macOS
+# bindtcp /bin/sh on macOS
 https://packetstormsecurity.com/files/151731/macOS-TCP-4444-Bind-Shell-Null-Free-Shellcode.html
 # asm compilation
 nasm -f macho64 -o ipv4bind.o ipv4bind.s && ld -macosx_version_min 10.7.0 -o ipv4bind ipv4bind.o
